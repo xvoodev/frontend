@@ -1,9 +1,19 @@
-h1
+.header
 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 64pt;
-    color: blueviolet;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    background: blueviolet;
+    color: white;
+    animtaion: myframes 500ms ease-in-out 0s normal forwards running;
+}
+
+@keyframes myframes {
+    from {
+        background-color: blueviolet;
+    }
+    to
+    {
+        background-color: blue;
+    }
 }
