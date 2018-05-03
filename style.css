@@ -32,7 +32,7 @@ html
     text-align: center;
 }
 
-.trigger:hover>#header
+.trigger:active>#header
 {
     animation: Scaling 700ms ease-in-out 0s 1 normal forwards running;
 }
